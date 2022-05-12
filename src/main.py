@@ -19,9 +19,5 @@ map.collider = MeshCollider(map)
 player = Player(position=(0,0,0))
 
 
-def input(key):
-    if key == 'r':
-        player.position = (0, 0, 0)
-
 
 app.run()
