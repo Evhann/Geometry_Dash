@@ -3,7 +3,6 @@ from ursina.curve import out_expo
 
 class Player(Entity): # it's actually FirstPersonController but with a few changes
     def __init__(self, **kwargs):
-        self.cursor = Entity(parent=camera.ui, model='quad', color=color.pink, scale=.008, rotation_z=45)
         super().__init__(
             model='cube',
             color=color.red,
