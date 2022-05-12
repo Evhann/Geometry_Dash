@@ -18,6 +18,8 @@ map = Entity(model="assets/levels/1/map.obj", scale=0.8)
 map.collider = MeshCollider(map)
 player = Player(position=(0,0,0))
 
-
+def input(key):
+    if key == 'r':
+        player.respawn()
 
 app.run()
