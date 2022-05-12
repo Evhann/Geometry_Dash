@@ -8,7 +8,7 @@ class Player(Entity): # it's actually FirstPersonController but with a few chang
             model='cube',
             color=color.red,
         )
-        self.speed = 7
+        self.speed = 9
         self.height = 2.5
         self.camera_pivot = Entity(parent=self, y=self.height)
 
