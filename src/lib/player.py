@@ -106,9 +106,7 @@ class Player(Entity): # it's actually FirstPersonController but with a few chang
 
     def on_enable(self):
         mouse.locked = True
-        self.cursor.enabled = True
-
 
     def on_disable(self):
         mouse.locked = False
-        self.cursor.enabled = False
+        
